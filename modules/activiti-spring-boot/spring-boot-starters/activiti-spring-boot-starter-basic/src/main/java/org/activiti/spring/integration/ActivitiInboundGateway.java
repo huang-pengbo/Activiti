@@ -82,4 +82,8 @@ public class ActivitiInboundGateway extends MessagingGatewaySupport {
     }
 
 
+    @Override
+    public long messageCount() {
+        return 0;
+    }
 }
